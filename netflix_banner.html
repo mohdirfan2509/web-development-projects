@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix banner</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style type="text/css">
+
+        body{
+
+            background-image: url(../public/images/netflixbg.jpg);
+        }
+
+        
+        
+        .sec{
+
+           
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 100vw;
+            height: 100vh;
+            margin: -8px;
+        }
+
+        header{
+            
+
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+        
+            padding-left: 10px;
+            padding-right: 30px;
+            /* margin-top: 10px; */
+
+        }
+
+        .headername{
+            color:  rgb(207, 9, 9) ;
+            font-size: 55px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        .langtab, .signintab {
+
+            border: 1px solid white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            margin: 8px;
+            padding: 2px;
+            border-radius: 2px;
+            /* padding-block: 50px; */
+            /* padding-top: 10px; */
+            /* margin-bottom: -10px; */
+            
+        }
+
+        /* .signintab{
+
+                    padding-top: 10px;
+        } */
+
+        
+
+        .shade {
+            
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* border: 5px green solid; */
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content{
+
+            
+            padding-bottom: 10px;
+        
+        }
+
+        .line1{
+
+            font-size: 40px;
+            font-weight: bold;
+            font-family: verdana;
+        }
+
+        .line2{
+
+            font-size: 15px;
+            font-family: verdana;
+            padding-left: 300px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        .line3{
+            font-size: 12px;
+            font-family: verdana;
+            padding-left: 230px;
+            
+            padding-bottom: 30px;
+
+            
+
+        }
+
+        /* .line4 span{
+
+            border: 1px white solid;
+            font-size: 12px;
+            font-family: verdana;
+
+            
+        } */
+
+      .box1{ border: 1px solid rgb(80, 77, 77);
+             font-family:  verdana;
+             font-size: 8px;
+                padding: 8px;
+                padding-right: 160px;
+                margin-left: 250px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: rgba(0, 0, 0,0.4);
+                border-radius: 2px;
+
+
+
+      }
+
+    
+
+
+.starttab{
+
+    border: 1px solid red;
+             font-family:  tahoma;
+             font-size: 13px;
+                padding: 8px;
+                padding-right: 8px;
+                margin-left: 5px;
+                padding-top: 4.5px;
+                padding-bottom: 8.5px;
+                background-color: red;
+                border-radius: 2px;
+}
+
+
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="sec">
+
+     <header>
+        <div class="headername">NETFLIX</div>
+
+
+        <div >
+            <span class="langtab">
+
+              
+              <span class="bi bi-globe"></span>           <!--keep globe here-->
+
+              <span>English</span>          <!--keep english here-->
+
+              <span class="bi bi-caret-down-fill"></span>             <!--keep down arrow here-->
+
+            </span>
+            
+            
+            <span class="signintab">Sign In</span>
+        </div>
+     </header>
+
+
+     <main>
+
+        <div class="shade">
+            <div class="content">
+
+
+                <div class="line1">Unlimited movies, TV shows, and more</div>
+                <div class="line2">Watch anywhere. Cancel anytime.</div>
+                <div class="line3">Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="line4">
+                    <span class="box1">Email address</span>
+
+                    <span class="starttab">
+                    <span>Get Started</span>
+                    <span class="bi bi-chevron-right"></span>
+                    </span>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+
+      </main>
+    </div>
+
+</body>
+
+</html>
