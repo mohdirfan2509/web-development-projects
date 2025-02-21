@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style type="text/css">
+        body {
+
+            display: grid;
+            grid-template-columns: 0.3fr 11.7fr;
+        }
+
+        nav {
+
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .home {
+
+            padding-left: 15px;
+        }
+
+        .shorts {
+
+            padding-left: 15px;
+        }
+
+        .subs {
+
+            padding-left: 2px;
+            font-size: 12px;
+        }
+
+        .you {
+
+            padding-left: 19px;
+
+        }
+
+
+
+        ul {
+
+            list-style-type: none;
+
+            padding-left: 10px;
+        }
+
+        li {
+
+
+            font-size: 25px
+        }
+
+        ul li {
+
+            padding-bottom: 40px;
+
+        }
+
+        li div {
+
+
+            font-size: 13px;
+            margin-left: -20px;
+        }
+
+
+        header {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 15px;
+
+
+            position: sticky;
+            top: 0px;
+
+            background-color: white;
+            background-size: cover;
+
+            
+
+
+
+        }
+
+
+    
+
+        .header3 {
+
+            margin-top: 3px;
+        
+            
+        }
+
+        .youtube {
+
+            font-family: fantasy;
+            font-size: 25px;
+
+
+        }
+
+        .bi-youtube {
+            font-size: 30px;
+            color: red;
+
+
+
+
+        }
+
+
+
+
+
+
+        .searchbar {
+
+            border: 1px black solid;
+            border-radius: 100px;
+            padding: 9px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(255, 225, 225);
+
+
+        }
+
+        .search {
+
+            padding-right: 350px;
+        }
+
+        .searchbar_ {
+
+            margin-top: 8px;
+
+        }
+
+        .bi-mic-fill {
+
+            border: 1px solid black;
+            border-radius: 100px;
+            padding: 8px;
+            margin-left: 20px;
+            background-color: rgb(255, 225, 225);
+
+        }
+
+        .bi-plus {
+            border: 1px solid black;
+            border-radius: 100px;
+            background-color: rgb(255, 225, 225);
+            padding: 9px;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        .bi-bell {
+
+            font-size: 23px;
+
+        }
+
+        .bi-c-circle-fill {
+
+            font-size: 23px;
+
+        }
+
+        .header3 span {
+
+            margin-right: 20px;
+        }
+
+        .bannerimage {
+
+
+
+            border-radius: 25px;
+        }
+
+        .banner {
+
+            margin-top: 20px;
+        }
+
+        .channelinfo {
+
+            margin-top: 30px;
+        }
+
+        .logo {
+
+            border-radius: 100px;
+
+            float: left;
+
+            margin-right: 20px;
+        }
+
+        .channelname {
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .channelinfo div {
+
+            margin-top: 6px;
+
+
+        }
+
+        .subscribe {
+
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 80px;
+            padding: 5px;
+            text-align: center;
+            margin-left: 170px;
+            color: white;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .menu {
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+
+        .menu span {
+
+            margin-left: 30px;
+        }
+
+        .videoline1 {
+
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            margin-top: 10px;
+        }
+
+        .videoline1 iframe {
+
+
+            width: 260px;
+
+        }
+
+        iframe {
+
+            border-radius: 10px;
+        }
+
+        sup {
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+        }
+
+        div .videoline1 {
+
+            margin: 10px;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li class="bi bi-list"></li>
+            <li class="bi bi-house-door">
+                <div class="home">Home</div>
+            </li>
+            <li class="bi bi-camera-reels">
+                <div class="shorts">Shorts</div>
+            </li>
+            <li class="bi bi-collection-play">
+                <div class="subs">Subscriptions</div>
+            </li>
+            <li class="bi bi-person-circle">
+                <div class="you">You</div>
+            </li>
+
+        </ul>
+    </nav>
+    <main>
+
+        <header>
+            <div class="youtube_logo">
+                <span class="bi bi-youtube"></span>
+                <span class="youtube">YouTube <sup>IN</sup></span>
+            </div>
+
+
+            <div class="searchbar_">
+
+                <span class="searchbar">
+
+                    <span class="search">Search</span>
+
+                    <span class="bi bi-search"></span>
+
+                </span>
+
+                <span class="bi-mic-fill"></span>
+            </div>
+
+
+            <div class="header3">
+
+
+
+                <span class="bi bi-plus">Create</span>
+
+                <span class="bi bi-bell"></span>
+
+
+
+                <span class="bi-c-circle-fill"></span>
+            </div>
+        </header>
+
+        <div class="banner">
+            <img class="bannerimage" src="../public/images/pwioibanner.jpg" width="1180">
+        </div>
+
+        <div class="channelinfo">
+            <img class="logo" src="../public/images/pwioilogo.jpg" width="150" height="150">
+
+            <div class="channelname">PW Institute of Innovation</div>
+            <div><b class="@">@PW-IOI</b> 7.91K subscribers 230 videos</div>
+
+            <div>At PW Institute of Innovation. innovation isn't optional-it's a way of life. We blend ..more</div>
+
+            <div>pwioi.com/?utm_source=Youtube&utm_medium=Social&utm_campaign=Org...</div>
+
+            <div class="subscribe">Subscribe</div>
+        </div>
+
+        <div class="menu">
+            <span>Home</span>
+            <span>Videos</span>
+            <span>Shorts</span>
+            <span>playlists</span>
+            <span>Community</span>
+        </div>
+
+        <div class="videoline1">
+            <iframe src="https://www.youtube.com/embed/-ne9dAcDLVY" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/WLSdmn56qYg" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/VCFCI1PMTJw" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/fJ8le9Ghmx4" frameborder="0"></iframe>
+        </div>
+
+
+        <div class="videoline1">
+            <iframe src="https://www.youtube.com/embed/-ne9dAcDLVY" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/WLSdmn56qYg" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/VCFCI1PMTJw" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/fJ8le9Ghmx4" frameborder="0"></iframe>
+        </div>
+
+        <div class="videoline1">
+            <iframe src="https://www.youtube.com/embed/-ne9dAcDLVY" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/WLSdmn56qYg" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/VCFCI1PMTJw" frameborder="0"></iframe>
+
+
+            <iframe src="https://www.youtube.com/embed/fJ8le9Ghmx4" frameborder="0"></iframe>
+        </div>
+
+    </main>
+</body>
+
+</html>
